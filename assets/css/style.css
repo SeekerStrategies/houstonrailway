@@ -366,7 +366,12 @@ ul.navbar-nav {
     background-color: #ef7f63;
     color: #f2ebdf;
     text-align: center;
-    padding: 10px 0;
+    padding: 40px 0;
+}
+.bottom-line p strong{
+    background: #2f2929;
+    font-size: 44px;
+    line-height: 1.4;
 }
 .bottom-line p{
    margin: 0;
