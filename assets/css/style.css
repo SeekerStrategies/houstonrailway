@@ -1,46 +1,28 @@
 
 @font-face {
     font-family: 'Cera Basic';
-    src: url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0762ff9486823ee6c8af_cerabasic-black-webfont.woff2') format('woff2'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07624901e6ba88866404_cerabasic-black-webfont.eot') format('embedded-opentype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07622137ed365d8985b8_cerabasic-black-webfont.woff') format('woff'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07625a4c45174eb129bc_cerabasic-black-webfont.ttf') format('truetype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d076275f36b0c955d6608_cerabasic-black-webfont.svg') format('svg');
+    src: url('../fonts/600d0762ff9486823ee6c8af_cerabasic-black-webfont.woff2') format('woff2'), url('../fonts/600d07622137ed365d8985b8_cerabasic-black-webfont.woff') format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
   }
+
   @font-face {
     font-family: 'Cera Basic';
-    src: url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0784ce22ee107e968fe3_cerabasic-blackitalic-webfont.woff2') format('woff2'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0784c1eb6e5d7760b63e_cerabasic-blackitalic-webfont.eot') format('embedded-opentype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0784deb2b00ada1414f3_cerabasic-blackitalic-webfont.woff') format('woff'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07845f839678b47d9a73_cerabasic-blackitalic-webfont.ttf') format('truetype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0785dc3c3348be14037f_cerabasic-blackitalic-webfont.svg') format('svg');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Cera Basic';
-    src: url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d079ec1eb6ec64a60b6a0_cerabasic-bold-webfont.woff2') format('woff2'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d079ec721879b77beda0f_cerabasic-bold-webfont.eot') format('embedded-opentype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d079ee916a390d8fa41a1_cerabasic-bold-webfont.woff') format('woff'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d079eafcfe9b7a7ebf620_cerabasic-bold-webfont.ttf') format('truetype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d079edeb2b0e5c81414f6_cerabasic-bold-webfont.svg') format('svg');
+    src: url('../fonts/600d079ec1eb6ec64a60b6a0_cerabasic-bold-webfont.woff2') format('woff2'), url('../fonts/600d079ee916a390d8fa41a1_cerabasic-bold-webfont.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
   }
+ 
   @font-face {
     font-family: 'Cera Basic';
-    src: url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07b36222b1021ca3cc3b_cerabasic-bolditalic-webfont.woff2') format('woff2'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07b3a2ae0db260b98881_cerabasic-bolditalic-webfont.eot') format('embedded-opentype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07b3a48afd7074c4dc2e_cerabasic-bolditalic-webfont.woff') format('woff'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07b372173e71a08b179f_cerabasic-bolditalic-webfont.ttf') format('truetype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07b4c721875203beda10_cerabasic-bolditalic-webfont.svg') format('svg');
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Cera Basic';
-    src: url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07ce5f839669f47d9c19_cerabasic-regular-webfont.woff2') format('woff2'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07ce5f839669d97d9c18_cerabasic-regular-webfont.eot') format('embedded-opentype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07cf75a23e09b1cd7e4e_cerabasic-regular-webfont.woff') format('woff'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07ce4780c3ff3e0f842a_cerabasic-regular-webfont.ttf') format('truetype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d07cfe4b1d8ddeba3f76e_cerabasic-regular-webfont.svg') format('svg');
+    src: url('../fonts/600d07ce5f839669f47d9c19_cerabasic-regular-webfont.woff2') format('woff2'), url('../fonts/600d07cf75a23e09b1cd7e4e_cerabasic-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
   }
-  @font-face {
-    font-family: 'Cera Basic';
-    src: url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0871b78953fc32bc5999_cerabasic-regularitalic-webfont.woff2') format('woff2'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0870f296c0a674c716e0_cerabasic-regularitalic-webfont.eot') format('embedded-opentype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0871ce22ee8a2e969162_cerabasic-regularitalic-webfont.woff') format('woff'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d0871d1a244c092e6515c_cerabasic-regularitalic-webfont.ttf') format('truetype'), url('https://assets.website-files.com/600d05bb3b435040ecd059e8/600d087172173e924d8b1811_cerabasic-regularitalic-webfont.svg') format('svg');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-  }
+
 body {
     background-color: #f2ebdf !important; 
 }
